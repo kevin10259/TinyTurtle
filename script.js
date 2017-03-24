@@ -50,3 +50,27 @@ function hexagon (x) {
 }
 
 hexagon(25);
+
+function square (x) {
+    left(70);
+    forward(x);
+    right(90);
+    forward(x);
+    right(90);
+    forward(x);
+    right(90);
+    forward(x);
+}
+
+square(19);
+
+function triangle (x) {
+    right(25);
+    forward(x);
+    left(90);
+    forward(x);
+    left(135);
+    forward(x);
+}
+
+triangle(19);
